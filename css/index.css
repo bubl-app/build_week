@@ -148,3 +148,121 @@ h5 {
   margin-bottom: 15px;
   font-family: "CabinSketch", sans-serif;
 }
+/*Jenn's CSS Additions*/
+/*footer*/
+footer{
+  background-color: #800080;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  }
+footer nav{
+  padding-bottom: 10px;
+}
+ footer nav a{
+  color: white;
+  padding-right: 50px;
+text-decoration: none;
+  }
+
+/*carousel*/
+.carouselContainer{
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+.mainCarousel{
+  padding: 20px 0;
+}
+.carouselImg{
+  display: none;
+  position: relative;
+  margin: auto;
+}
+.carouselImg.active{
+  display: block;
+}
+.carouselBtnContainer{
+  display: block;
+}
+
+/*about*/
+.main{
+  width: 90%;
+ }
+.accordian{
+  display: block;
+  margin-left: 10%;
+  padding: 25px 0;
+}
+.aboutHeader{
+  color: #800080;
+  font-size: 1.5em;
+  padding: 0 10px;
+}
+
+.panel{
+  border: 2px solid purple;
+  border-radius: 10px;
+  padding-top: 15px; 
+  margin-bottom: 25px;
+}
+ .panel-content{
+  display: none;
+}
+.panel-bar{
+  display: flex;
+  justify-content: space-between;
+}
+.panel-buttons{
+  padding-right: 10px;
+  }
+button.panel-open, button.panel-close{
+  font-size: 15px;
+  border: 1px solid #800080;
+  border-radius: 5px;
+  background-color: white;
+  color: #800080;
+}
+
+.toggle{
+  display: block;
+}
+.hide{
+  display: none;
+}
+
+.panel-layout{
+  display: flex;
+  margin: 10px;
+}
+.right{
+  padding-left: 10px;
+}
+
+.right, .left{
+  flex-direction: column;
+  width: 50%;
+}
+.aboutImages{
+  height: 100px;
+  width: 100px;
+}
+
+/*pricing*/
+.mainPricing{
+  display: block;
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 15px;
+}
+ul{
+  list-style-type: disc;
+
+}
+.rightPricing{
+  width: 50%;
+  padding-left: 25px;
+}

@@ -6,18 +6,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-
     <title>Bubl</title>
-
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Snippet&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css" />
 
+  </head>
     <body>
+        <script defer="defer" src="javascript/carousel.js"></script>
       <header>
-        <img class="logo" src="img/lambda-black.png" alt="Bubl" />
+        <img class="logo" src="images/logo.png" alt="Bubl" />
         <nav>
           <a href="index.html">Home</a>
           <a href="about.html">About</a>
@@ -25,6 +22,25 @@
           <a href="contact.html">Contact</a>
         </nav>
       </header>
+      <div class="carouselContainer">
+        <div class="mainCarousel">
+          <img class="carouselImg active" src="images/adventuretime.png" alt="adventure time image">
+          <img class="carouselImg" src="images/superherogirls.png" alt="girl superheros">
+          <img class="carouselImg" src="images/superheroguy.png" alt="guy superhero">
+          <img class="carouselImg" src="images/superherogirls2.png" alt="girl superheros">
+          <div class="carouselBtnContainer"><button class="carouselBtn">Next</button></div>
+        </div>
+      </div>
+      <script scr="/javascript/carousel.js"></script>
     </body>
-  </head>
+ 
+  <footer>
+      <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+    <p>&copy; Carmen Salley &amp; Jennifer Hott</p>
+  </footer>
 </html>
