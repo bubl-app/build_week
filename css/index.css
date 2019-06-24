@@ -137,6 +137,7 @@ html,
 body {
   height: 100%;
   font-family: "Snippet", sans-serif;
+  background-color: lightgray;
 }
 
 h1,
@@ -147,4 +148,191 @@ h5 {
   font-size: 18px;
   margin-bottom: 15px;
   font-family: "CabinSketch", sans-serif;
+}
+
+p {
+  line-height: 1.4;
+}
+
+header nav {
+  display: flex;
+  margin-top: 2%;
+  background-color: purple;
+  width: 100%;
+}
+
+header nav a {
+  margin: 20px;
+  margin-left: 13%;
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-top: 4%;
+}
+
+header .logo {
+  display: flex;
+  margin-left: 9%;
+  margin-top: -2%;
+  margin-right: -6%;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.home-img {
+  display: flex;
+  margin-left: -64%;
+  margin-top: -10%;
+  padding: 10%;
+}
+
+.top-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.top-content .text-container {
+  width: 48%;
+  padding: 0 1%;
+  padding-bottom: 20px;
+}
+
+.middle-content .circle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.middle-content .circle .circle1 {
+  width: 32%;
+  height: 274px;
+  background: #008f95;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 3.5em;
+  text-align: center;
+  border: 10px solid white;
+}
+
+.middle-content .circle .circle1:hover {
+  position: relative;
+  top: -15px;
+  left: -35px;
+  width: 40%;
+  height: auto;
+  display: block;
+  z-index: 999;
+  align-items: center;
+  text-align: center;
+}
+
+.middle-content .circle .circle2 {
+  width: 32%;
+  height: 274px;
+  background: #e24e42;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 3.5em;
+  text-align: center;
+  border: 10px solid white;
+}
+
+.middle-content .circle .circle2:hover {
+  position: relative;
+  top: -15px;
+  left: -35px;
+  width: 40%;
+  height: auto;
+  display: block;
+  z-index: 999;
+  align-items: center;
+  text-align: center;
+}
+
+.middle-content .circle .circle3 {
+  width: 32%;
+  height: 274px;
+  background: #e9b000;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 3.5em;
+  text-align: center;
+  border: 10px solid white;
+}
+
+.middle-content .circle .circle3:hover {
+  position: relative;
+  top: -15px;
+  left: -35px;
+  width: 40%;
+  height: auto;
+  display: block;
+  z-index: 999;
+  align-items: center;
+  text-align: center;
+}
+
+.middle-content .circle .circle4 {
+  width: 32%;
+  height: 274px;
+  background: #eb6e80;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 3.5em;
+  text-align: center;
+  border: 10px solid white;
+}
+
+.middle-content .circle .circle4:hover {
+  position: relative;
+  top: -15px;
+  left: -35px;
+  width: 40%;
+  height: auto;
+  display: block;
+  z-index: 995;
+  align-items: center;
+  text-align: center;
+}
+
+/*Contact*/
+.containerform {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }

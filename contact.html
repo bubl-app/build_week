@@ -13,18 +13,46 @@
       href="https://fonts.googleapis.com/css?family=Snippet"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="index.js" async></script>
 
     <body>
       <header>
-        <img class="logo" src="images/logo.png" alt="Bubl" />
         <nav>
           <a href="index.html">Home</a>
           <a href="about.html">About</a>
+          <img class="logo" src="images/logo.png" alt="Bubl" />
           <a href="pricing.html">Pricing</a>
           <a href="contact.html">Contact</a>
         </nav>
       </header>
+
+      <div class="containerform">
+               
+              
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="lname">Email</label>
+          <input type="text" id="email address" name="lastname" placeholder="Your email address..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
     </body>
   </head>
 </html>
