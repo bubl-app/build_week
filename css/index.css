@@ -155,15 +155,18 @@ p {
 }
 
 header nav {
+  border-top: 5px solid white;
   display: flex;
   margin-top: 2%;
   background-color: purple;
-  width: 100%;
+  width: 88%;
+  border-bottom: 5px solid white;
+  margin-left: 5%;
 }
 
 header nav a {
   margin: 20px;
-  margin-left: 13%;
+  margin-left: 12%;
   color: white;
   font-size: 1.5em;
   text-decoration: none;
@@ -184,9 +187,10 @@ header .logo {
 
 .home-img {
   display: flex;
-  margin-left: -64%;
+  margin-left: -53%;
   margin-top: -10%;
   padding: 10%;
+  width: 202%;
 }
 
 .top-content {
@@ -322,6 +326,8 @@ header .logo {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  width: 88%;
+  margin-left: 5%;
 }
 
 input[type="text"],
@@ -335,4 +341,8 @@ textarea {
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+* {
+  box-sizing: border-box;
 }
