@@ -137,6 +137,7 @@ html,
 body {
   height: 100%;
   font-family: "Snippet", sans-serif;
+  background-color: lightgray;
 }
 
 h1,
@@ -148,121 +149,200 @@ h5 {
   margin-bottom: 15px;
   font-family: "CabinSketch", sans-serif;
 }
-/*Jenn's CSS Additions*/
-/*footer*/
-footer{
-  background-color: #800080;
-  color: white;
-  text-align: center;
-  font-size: 20px;
-  padding: 15px;
-  }
-footer nav{
-  padding-bottom: 10px;
-}
- footer nav a{
-  color: white;
-  padding-right: 50px;
-text-decoration: none;
-  }
 
-/*carousel*/
-.carouselContainer{
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-  overflow: hidden;
-}
-.mainCarousel{
-  padding: 20px 0;
-}
-.carouselImg{
-  display: none;
-  position: relative;
-  margin: auto;
-}
-.carouselImg.active{
-  display: block;
-}
-.carouselBtnContainer{
-  display: block;
+p {
+  line-height: 1.4;
 }
 
-/*about*/
-.main{
-  width: 90%;
- }
-.accordian{
-  display: block;
-  margin-left: 10%;
-  padding: 25px 0;
+header nav {
+  border-top: 5px solid white;
+  display: flex;
+  margin-top: 2%;
+  background-color: purple;
+  width: 88%;
+  border-bottom: 5px solid white;
+  margin-left: 5%;
 }
-.aboutHeader{
-  color: #800080;
+
+header nav a {
+  margin: 20px;
+  margin-left: 12%;
+  color: white;
   font-size: 1.5em;
-  padding: 0 10px;
+  text-decoration: none;
+  margin-top: 4%;
 }
 
-.panel{
-  border: 2px solid purple;
-  border-radius: 10px;
-  padding-top: 15px; 
-  margin-bottom: 25px;
-}
- .panel-content{
-  display: none;
-}
-.panel-bar{
+header .logo {
   display: flex;
-  justify-content: space-between;
+  margin-left: 9%;
+  margin-top: -2%;
+  margin-right: -6%;
 }
-.panel-buttons{
-  padding-right: 10px;
-  }
-button.panel-open, button.panel-close{
-  font-size: 15px;
-  border: 1px solid #800080;
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.home-img {
+  display: flex;
+  margin-left: -53%;
+  margin-top: -10%;
+  padding: 10%;
+  width: 202%;
+}
+
+.top-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.top-content .text-container {
+  width: 48%;
+  padding: 0 1%;
+  padding-bottom: 20px;
+}
+
+.middle-content .circle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.middle-content .circle .circle1 {
+  width: 32%;
+  height: 274px;
+  background: #008f95;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 3.5em;
+  text-align: center;
+  border: 10px solid white;
+}
+
+.middle-content .circle .circle1:hover {
+  position: relative;
+  top: -15px;
+  left: -35px;
+  width: 40%;
+  height: auto;
+  display: block;
+  z-index: 999;
+  align-items: center;
+  text-align: center;
+}
+
+.middle-content .circle .circle2 {
+  width: 32%;
+  height: 274px;
+  background: #e24e42;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 3.5em;
+  text-align: center;
+  border: 10px solid white;
+}
+
+.middle-content .circle .circle2:hover {
+  position: relative;
+  top: -15px;
+  left: -35px;
+  width: 40%;
+  height: auto;
+  display: block;
+  z-index: 999;
+  align-items: center;
+  text-align: center;
+}
+
+.middle-content .circle .circle3 {
+  width: 32%;
+  height: 274px;
+  background: #e9b000;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 3.5em;
+  text-align: center;
+  border: 10px solid white;
+}
+
+.middle-content .circle .circle3:hover {
+  position: relative;
+  top: -15px;
+  left: -35px;
+  width: 40%;
+  height: auto;
+  display: block;
+  z-index: 999;
+  align-items: center;
+  text-align: center;
+}
+
+.middle-content .circle .circle4 {
+  width: 32%;
+  height: 274px;
+  background: #eb6e80;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 3.5em;
+  text-align: center;
+  border: 10px solid white;
+}
+
+.middle-content .circle .circle4:hover {
+  position: relative;
+  top: -15px;
+  left: -35px;
+  width: 40%;
+  height: auto;
+  display: block;
+  z-index: 995;
+  align-items: center;
+  text-align: center;
+}
+
+/*Contact*/
+.containerform {
   border-radius: 5px;
-  background-color: white;
-  color: #800080;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 88%;
+  margin-left: 5%;
 }
 
-.toggle{
-  display: block;
-}
-.hide{
-  display: none;
-}
-
-.panel-layout{
-  display: flex;
-  margin: 10px;
-}
-.right{
-  padding-left: 10px;
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-.right, .left{
-  flex-direction: column;
-  width: 50%;
-}
-.aboutImages{
-  height: 100px;
-  width: 100px;
-}
-
-/*pricing*/
-.mainPricing{
-  display: block;
-  width: 80%;
-  margin-left: 10%;
-  padding-top: 15px;
-}
-ul{
-  list-style-type: disc;
-
-}
-.rightPricing{
-  width: 50%;
-  padding-left: 25px;
+* {
+  box-sizing: border-box;
 }
