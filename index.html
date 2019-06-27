@@ -14,11 +14,11 @@
     
     <link rel="stylesheet" href="css/index.css" />
     <script src="index.js" async></script>
-    <script src="slideshow.js" async></script>
+    <script src="javascript/bubbles.js" async></script>
+    </head>
 
-    <body>
       <header>
-        <nav>
+        <nav class="navContainer">
           <a href="index.html">Home</a>
           <a href="about.html">About</a>
           <img class="logo" src="images/logo.png" alt="Bubl" />
@@ -26,33 +26,49 @@
           <a href="contact.html">Contact</a>
         </nav>
       </header>
-
-      <div class="container" >
+      
+    <body class="container">  
         
-     <img class="home-img" src="images/wallpaper.jpg" alt="Bubl Homepage">
-        
- 
-
-        <section class="top-content">
-            <div class="text-container">
-                <h2>Fun</h2>
+     <img class="home-img" src="images/wallpaper2.jpg" alt="Bubl Homepage">
+     <div class="top-content">
+       <div class="tc-left"
+       <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro.</p>
+       </div>
+      <div class="tc-right">
+      <p>Nigh tofth eliv ingdead. Horribilem walking dead resurgere de crazed sepulcris creaturis, zombie sicut de grave feeding iride et serpens. Pestilentia, shaun ofthe dead scythe animated corpses ipsa screams. Pestilentia est plague haec decaying ambulabat mortuos. Sicut zeder apathetic malus voodoo. Aenean a dolor plan et terror soulless vulnerum contagium accedunt, mortui iam vivam unlife. Qui tardius moveri, brid eof reanimator sed in magna copia sint terribiles undeath legionis. Alii missing oculis aliorum sicut serpere crabs nostram. Putridi braindead odores kill and infect, aere implent left four dead.  
+        </p>
+      </div>
+      </div>
+     <div class="middle-content">
+      <div class="circle">
+          <div id="circle1" class="bubbles bubbleLinkSelected" data-bubble="1">Fun</div>
+          <div id="circle2" class="bubbles" data-bubble="2">Safe</div>
+          <div id="circle3" class="bubbles" data-bubble="3">Learn</div>
+          <div id="circle4" class="bubbles" data-bubble="4">Make Friends</div>
+      </div>      
+           <div class="mainTextContainer">
+            <div class="text-container bubbleItemSelected" data-bubble="1">
+                <h2 id="header1">Fun</h2>
+                <p>Chantey aye Chain Shot yawl spike dance the hempen jig belaying pin nipperkin run a shot across the bow Buccaneer. Yawl brig Letter of Marque pirate hands lanyard measured fer yer chains pressgang wherry draught. Lee topgallant haul wind quarterdeck fire ship lugsail doubloon list topmast gaff.</p>
+            </div>
+            <div class="text-container" data-bubble="2">
+                <h2 id="header2">Safe</h2>
+                <p>Swab gun parley capstan mizzen fore boom squiffy cutlass marooned. Red ensign heave down jury mast rigging smartly matey fire ship boom spike league. Square-rigged quarterdeck bilge water chandler parrel crimp keel black spot galleon Chain Shot.</p>
+            </div>
+            <div class="text-container" data-bubble="3">
+                <h2 id="header3">Learn</h2>
+                <p>Strike colors Yellow Jack topmast gally chandler Blimey nipperkin barque square-rigged bowsprit. Skysail splice the main brace Buccaneer hands league American Main loot Admiral of the Black driver quarter. Chain Shot mizzenmast barkadeer hail-shot tender aye fluke rope's end cutlass plunder.</p>
+            </div>
+            <div class="text-container" data-bubble="4">
+                <h2 id="header4">Make Friends</h2>
                 <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
             </div>
-            <div class="text-container">
-                <h2>Safe</h2>
-                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
-            </div>
-        </section>
+          </div>
         
-        <section class="middle-content">
-        <div class="circle">
-            <div class="circle1">Fun</div>
-            <div class="circle2">Safe</div>
-            <div class="circle3">Learn</div>
-            <div class="circle4">Make Friends</div>
-</div>
+        </div>
+       
     </body>
-  </head>
+
   <footer>
     <nav>
         <a href="index.html">Home</a>
