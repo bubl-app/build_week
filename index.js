@@ -12,7 +12,7 @@ for (var i = 0; i < bubble.length; i++) {
 //mouseover navigation turns blue and font is bigger
 const navLinks = document.getElementsByTagName("a");
 function clickHandler() {
-  this.style.color = "aqua";
+  this.style.color = "#008f95";
 }
 
 function MouseO() {
@@ -20,7 +20,7 @@ function MouseO() {
 }
 
 function TextSize() {
-  this.style.fontSize = "2em";
+  this.style.fontSize = "1.75em";
 }
 
 function ChangeText() {
