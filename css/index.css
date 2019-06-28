@@ -158,8 +158,9 @@ html{
 }
 /*Carmen code starts*/
 .container {
-   width: 100%;
+  width: 100%;
   margin: 0 auto;
+  
 }
 /*Jenn nav container code*/
 .navContainer{
@@ -194,7 +195,9 @@ header .logo {
   /*margin-top: -2%;
   margin-right: -6%;*/
 }
-
+.mobileNav{
+  display: none;
+}
 /* .home-img {
   display: flex;
   margin-left: -53%;
@@ -416,7 +419,7 @@ footer nav a {
 }
 
 /*carousel*/
-.carouselContainer {
+/* .carouselContainer {
   max-width: 100%;
   position: relative;
   margin: auto;
@@ -435,7 +438,7 @@ footer nav a {
 }
 .carouselBtnContainer {
   display: block;
-}
+} */
 
 /*about*/
 .main {
@@ -528,14 +531,19 @@ ul {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1500px;
+  width: 100%;
   position: relative;
-  margin: auto;
+  display: flex;
+  padding-top: 20px;
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
+}
+.home-img{
+  align-content: center;
+  padding-left: 25px;
 }
 
 /* Next & previous buttons */
@@ -634,55 +642,30 @@ ul {
 
 /*mobile*/
 @media (max-width: 500px) {
-  /*header nav {
-    border-top: 5px solid white;
-    display: flex;
-    margin-top: 2%;
-    background-color: purple;
-    width: 88%;
-    border-bottom: 5px solid white;
-    margin-left: 5%;
-  }
+ .navContainer{
+   display: none;
+ }
+.mobileNav{
+  display: flex;
+  padding-left: 20px;
+  
+}
 
-  header nav a {
-    display: none;
-    margin: 20px;
-    margin-left: 12%;
-    color: white;
-    font-size: 1.5em;
-    text-decoration: none;
-    margin-top: 4%;
-  }*/
+.list{
+  list-style: none;
+}
 
-  header .logo {
-    display: flex;
-    margin-left: -27%;
-    margin-top: -2%;
-    margin-right: -6%;
-    width: 23%;
-  }
-
-  .home-img {
-    display: flex;
-    margin-left: -7%;
-    margin-top: -10%;
-    padding: 10%;
-    width: 73%;
-  }
-
-  p {
-    line-height: 1.4;
-    width: 50%;
-    margin-left: 5%;
-  }
+.home-img{
+  width: 100%;
+  padding-left: 0;
+}
 
   h2 {
     margin-left: 5%;
     margin-top: 5%;
   }
   .top-content {
-    display: inline-block;
-    flex-wrap: wrap;
+    display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -699,19 +682,14 @@ ul {
     padding-bottom: 5px;
   }
   footer nav a {
-    color: white;
-    padding-right: 20px;
-    text-decoration: none;
-    width: 65%;
-    font-size: 0.5em;
-  }
+    width: 80%;
+    }
 
   footer {
-    background-color: #800080;
-    color: white;
+    width: 100%;
+    font-size: 1em;
+  }
+  footer p{
     text-align: center;
-    font-size: 20px;
-    padding: 5px;
-    width: 50%;
   }
 }
